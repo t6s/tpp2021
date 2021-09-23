@@ -27,18 +27,22 @@ We hope all participants would consider giving a talk.
 
 
 ## 開催日程 / Date
-2021年11月20日(土), 21日(日) / Sat. 20th to Sun. 21st, November 2021.
+2021年11月21日(日), 22日(月) / Sun. 21st to Mon. 22nd, November 2021.
 
 ## 会場 / Venue
-北見工業大学 A106講義室 / Kitami Institute of Technology, Room A106
+北見工業大学 E131講義室 / Kitami Institute of Technology, Room E131
 
-新型コロナウイルス感染症 (COVID-19)の感染拡大状況に応じ,
-今年もオンライン(Zoom)で開催する可能性があります. 
+発表・質疑応答等はZoomを利用してオンラインでも参加可能にする予定です.
+
+なお, 新型コロナウイルス感染症 (COVID-19)の感染拡大状況に応じ,
+全面的にオンライン開催となる可能性があります. 
 
 11月上旬に決定してメーリングリストにてお知らせします. 
 
+The talks and discussions will be available online using Zoom.
+
 According to the spread of coronavirus infection (COVID-19), 
-we may switch to an online meeting (Zoom).
+we may switch to a fully online meeting.
 
 We will decide in the early November whether we go online,
 and announce on the mailing list.
@@ -46,6 +50,7 @@ and announce on the mailing list.
 ## 住所 / Address
 
 〒090-8507 北海道北見市公園町165番地 / 165 Koen-cho, Kitami, Hokkaido 090-8507
+
 [アクセス](https://www.kitami-it.ac.jp/access/) / [Access](https://www.kitami-it.ac.jp/access/)
 
 
@@ -61,27 +66,26 @@ we are not going to hold a dinner party this year.
 
 才川隆文 (名古屋大学) /
 Takafumi Saikawa (Nagoya University), 
+
 Email: tscompor&lt;at&gt;gmail.com
 
 松田一徳 (北見工業大学) /
 Kazunori Matsuda (Kitami Institute of Technology), 
+
 Email: kaz-matsuda&lt;at&gt;kitami-it.ac.jp
 
 ## 参加申し込み / Registration
-11/15(月)までに / Please register by 15th November from
+11/16(火)までに / Please register by 16th November from
 
 <span style="font-size:150%">
-
 [こちらから/here](https://docs.google.com/forms/d/e/1FAIpQLScbaL-rlDBnLCKPJFnQLoluu9KdRvL_AoLKtSDFSyvuAytmfw/viewform)
-
 </span>
-
 
 ## プログラム / Technical Program
 未定
 
 <!---
-### Nov. 20
+### Nov. 21
 
 * ??:?? **Opening; On TPP Mark 2020** (30min)  <br/>
   才川 隆文 @ 名古屋大学
@@ -92,7 +96,7 @@ Email: kaz-matsuda&lt;at&gt;kitami-it.ac.jp
 
 * Break (20min)
 
-### Nov. 21
+### Nov. 22
 
 * <time> **Dinner Party**
 
@@ -100,22 +104,50 @@ Email: kaz-matsuda&lt;at&gt;kitami-it.ac.jp
 
 
 ## TPPmark
-以下の状態遷移系を考えます.
+以下の盤面を状態とした状態遷移系を考えます.
 
-（盤面とパネルの絵）
+六角形の盤面は三角形6つに区切られていて,
+盤面の外周の各辺は白黒2色に塗り分けられています.
+この塗り分けをポートと呼びます. 
 
 この盤面の各三角形にパネルをはめてゆきます. 
+各パネルは小三角形4つからなり,
+頂点を含む小三角形1つと, その他の3つは色が違います. 
 
 - 初期状態：空盤面
-- 状態遷移：空三角形ひとつを選び,  任意のパネルをはめる
+- 状態遷移：盤面の空三角形のどれか1つに,  任意のパネルをはめる
 - 終了判定：
-    -  一つの（白/黒）ポートから他の同色のポートへの道ができたら終了
-    -  空三角形が無ければ終了
+    -  一つのポートから,  **隣り合った辺ではない** 他の辺の同色のポートへ,
+       「道」ができたら終了
+    - 空三角形が無ければ終了
 
-### 問1.
+Consider the following state transition on a game board.
+
+The board is a hexagon comprising six triangles.
+Each of the outer edges of the hexagon is divided into black and white segments,
+which we call "ports".
+
+We are going to place triangular tiles onto the board.
+Each tile consists of four smaller triangles, among which
+one at some vertex of the tile is differently colored than the other three.
+
+- Initial state: Empty board
+- Transition: Placement of an arbitrary tile onto some empty triangle on the board.
+- Termination conditions:
+    - There is a "path" which connects one port to some same-colored port
+      on a **non-adjacent** edge.
+    - There is no remaining empty triangle on the board.
+
+<img src="board.png" alt="Board" />
+
+<img src="black_path.png" alt="Black path" width="250"/> <img src="both_paths.png" alt="Both paths" width="250"/> <img src="no_path.png" alt="No path" width="250"/>
+
+### 問1
 この状態遷移系を形式化して下さい
 
-### 問2.
+Formalize this system.
+
+### 問2
 可能な終了状態の盤面数を以下の三つに分類して計算し, それが正しいことを証明して下さい. 
 
 1. 道ができていない盤面数
@@ -123,13 +155,39 @@ Email: kaz-matsuda&lt;at&gt;kitami-it.ac.jp
    あるいは黒ポートから黒ポートへの道のみができている盤面数
 3. 白から白, 黒から黒, 両方の道ができている盤面数
 
-### 問3.
+Compute and verify the number of possible final states of the board,
+classifying them into the following three:
+
+1. No path
+2. Either only black paths or only white paths
+3. Both black and white paths
+
+### 問3
 この状態遷移系を白黒ふたりのプレイヤーによるゲームとみなすことにします.
 各プレイヤーは交互にパネルを置いてゆき,
 白の道のみができたら白の勝ち, 黒の道のみができたら黒の勝ち,
 それ以外は引き分けです. 
 
 このゲームに必勝法は存在するでしょうか？
+
+Regard this system as a game played by black and white,
+each player taking turns placing tiles.
+When a final state is reached with paths of only one color,
+the corresponding player wins.
+Otherwise the game ends in a draw.
+
+Prove or disprove the existence of a winning strategy in this game.
+
+### 謝辞 / Acknowledgements
+このゲームはもともと北見工業大学の中村文彦さんが考案されたもので,
+今回簡略化してTPPMarkの題材とさせて頂くにあたり, いろいろとご協力頂きました.
+御礼申し上げます.
+
+The above game was originally invented by Fumihiko Nakamura of
+Kitami Institute of Technology.
+We are very grateful for his help in
+simplifying and using the game as a TPPMark problem.
+
 
 <!---
 ### 解答 / Solutions
