@@ -160,13 +160,12 @@ Formalize this system.
    あるいは黒ポートから黒ポートへの道のみができている盤面数
 3. 白から白, 黒から黒, 両方の道ができている盤面数
 
-Count the number of possible final states of the board
-and verify that the counting is correct,
-classifying the final states into the following three:
+Classify the final states of the board into the following three,
+and count the number of each. Also verify the correctness of the counting.
 
-1. Those with **no** path
-2. Those with **either** only black paths or only white paths
-3. Those with **both** black and white paths
+1. Those with no path
+2. Those with either only black paths or only white paths
+3. Those with both black and white paths
 
 ### 問3
 この状態遷移系を白黒ふたりのプレイヤーによるゲームとみなすことにします.
