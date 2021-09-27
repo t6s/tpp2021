@@ -30,7 +30,7 @@ We hope all participants would consider giving a talk.
 2021年11月21日(日), 22日(月) / Sun. 21st to Mon. 22nd, November 2021.
 
 ## 会場 / Venue
-北見工業大学 E131講義室 / Kitami Institute of Technology, Room E131
+北見工業大学 14号館 1階 E131講義室 / Kitami Institute of Technology, Building 14, 1st Floor, Room E131
 
 発表・質疑応答等はZoomを利用してオンラインでも参加可能にする予定です.
 
@@ -104,6 +104,8 @@ Email: kaz-matsuda&lt;at&gt;kitami-it.ac.jp
 
 
 ## TPPmark
+解答は才川宛(tscompor&lt;at&gt;gmail.com)にお送り下さい. / Please send your answer to Saikawa (tscompor&lt;at&gt;gmail.com).
+
 以下の盤面を状態とした状態遷移系を考えます.
 
 六角形の盤面は三角形6つに区切られていて,
@@ -117,7 +119,8 @@ Email: kaz-matsuda&lt;at&gt;kitami-it.ac.jp
 - 初期状態：空盤面
 - 状態遷移：盤面の空三角形のどれか1つに,  任意のパネルをはめる
 - 終了判定：
-    -  一つのポートから,  **隣り合った辺ではない** 他の辺の同色のポートへ,
+    -  一つのポートから, そのポートが乗っている盤面外周辺と
+       **隣り合っていない** 他の外周辺の同色のポートへ,
        「道」ができたら終了
     - 空三角形が無ければ終了
 
@@ -135,12 +138,14 @@ one at some vertex of the tile is differently colored than the other three.
 - Transition: Placement of an arbitrary tile onto some empty triangle on the board.
 - Termination conditions:
     - There is a "path" which connects one port to some same-colored port
-      on a **non-adjacent** edge.
+      on a **non-adjacent** edge of the board.
     - There is no remaining empty triangle on the board.
 
 <img src="board.png" alt="Board" />
 
 <img src="black_path.png" alt="Black path" width="250"/> <img src="both_paths.png" alt="Both paths" width="250"/> <img src="no_path.png" alt="No path" width="250"/>
+
+<img src="adj.png" alt="Adjacent ports" width="250"/>
 
 ### 問1
 この状態遷移系を形式化して下さい
@@ -155,12 +160,13 @@ Formalize this system.
    あるいは黒ポートから黒ポートへの道のみができている盤面数
 3. 白から白, 黒から黒, 両方の道ができている盤面数
 
-Compute and verify the number of possible final states of the board,
-classifying them into the following three:
+Count the number of possible final states of the board
+and verify that the counting is correct,
+classifying the final states into the following three:
 
-1. No path
-2. Either only black paths or only white paths
-3. Both black and white paths
+1. Those with **no** path
+2. Those with **either** only black paths or only white paths
+3. Those with **both** black and white paths
 
 ### 問3
 この状態遷移系を白黒ふたりのプレイヤーによるゲームとみなすことにします.
