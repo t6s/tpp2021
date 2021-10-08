@@ -84,11 +84,12 @@ Email: kaz-matsuda&lt;at&gt;kitami-it.ac.jp
 ## プログラム / Technical Program
 
 ### Nov.21
-* 13:00 **Opening; On TPP Mark 2021** (30min) <br/>
+* 13:00 **Opening** (10min) <br/>
   才川 隆文 @ 名古屋大学
 
 ### Nov.22
 * 12:00 **Closing** (10min) <br/>
+  才川 隆文 @ 名古屋大学
 
 
 <!---
