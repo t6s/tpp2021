@@ -32,8 +32,16 @@ We hope all participants would consider giving a talk.
 ## 会場 / Venue
 北見工業大学 / Kitami Institute of Technology
 
-| 11/21 | 2号館 1階 C121講義室, Building 2, 1st Floor, Room C121 |
-| 11/22 | 14号館 1階 E131講義室 , Building 14, 1st Floor, Room E131 |
+<table>
+<tr>
+    <td>11/21</td>
+    <td>2号館 1階 C121講義室, Building 2, 1st Floor, Room C121</td>
+</tr>
+<tr>
+    <td>11/22</td>
+    <td>14号館 1階 E131講義室 , Building 14, 1st Floor, Room E131</td>
+</tr>
+</table>
 
 発表・質疑応答等はZoomを利用してオンラインでも参加可能にする予定です.
 
