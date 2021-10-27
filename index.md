@@ -30,7 +30,9 @@ We hope all participants would consider giving a talk.
 2021年11月21日(日), 22日(月) / Sun. 21st to Mon. 22nd, November 2021.
 
 ## 会場 / Venue
-北見工業大学 14号館 1階 E131講義室 / Kitami Institute of Technology, Building 14, 1st Floor, Room E131
+北見工業大学 / Kitami Institute of Technology
+| 11/21 | 2号館 1階 C121講義室, Building 2, 1st Floor, Room C121 |
+| 11/22 | 14号館 1階 E131講義室 , Building 14, 1st Floor, Room E131 |
 
 発表・質疑応答等はZoomを利用してオンラインでも参加可能にする予定です.
 
