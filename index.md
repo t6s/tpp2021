@@ -31,6 +31,7 @@ We hope all participants would consider giving a talk.
 
 ## 会場 / Venue
 北見工業大学 / Kitami Institute of Technology
+
 | 11/21 | 2号館 1階 C121講義室, Building 2, 1st Floor, Room C121 |
 | 11/22 | 14号館 1階 E131講義室 , Building 14, 1st Floor, Room E131 |
 
