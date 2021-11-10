@@ -45,18 +45,7 @@ We hope all participants would consider giving a talk.
 
 発表・質疑応答等はZoomを利用してオンラインでも参加可能にする予定です.
 
-なお, 新型コロナウイルス感染症 (COVID-19)の感染拡大状況に応じ,
-全面的にオンライン開催となる可能性があります. 
-
-11月上旬に決定してメーリングリストにてお知らせします. 
-
 The talks and discussions will be available online using Zoom.
-
-According to the spread of coronavirus infection (COVID-19), 
-we may switch to a fully online meeting.
-
-We will decide in the early November whether we go online,
-and announce on the mailing list.
 
 ## 住所 / Address
 
