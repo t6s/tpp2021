@@ -83,12 +83,127 @@ Email: kaz-matsuda&lt;at&gt;kitami-it.ac.jp
 
 ## プログラム / Technical Program
 
+Each talk slot includes the time for discussion and break.
+
 ### Nov.21
-* 13:00 **Opening** (10min) <br/>
+* 13:00 - 13:10 **Opening** (10min) <br/>
   才川 隆文 @ 名古屋大学
 
+* 13:10 - 13:55 ** Formalizing quantum circuits with MathComp/Ssreflect ** (30 + 15 min) <br/>
+   才川 隆文 @ 名古屋大学
+   We formalized a basic tensor algebra used in quantum circuits.
+   Compared to the previous work, in which compositions of quantum gates
+   are expressed by large matrices padded by identity,
+   our formalization takes the gates as parametric linear functions
+   and deals with their compositions by polymorphism.
+
+* 13:55 - 14:40 ** 生命保険数学の形式化 / Formalizing Actuarial Mathematics ** (30 + 15 min) <br/>
+   伊藤 洋介 / Yosuke Ito @ SOMPOひまわり生命保険株式会社 / Sompo Himawari Life Insurance Inc.<br/>
+   生命保険数学とは、主に生命保険における保険料や負債の計算に関する理論であり、
+   アクチュアリー試験の試験科目にも含まれている。
+   今回、定理証明支援系Coqを用いて生命保険数学の基本的な定義や公式を形式化したので、
+   その概要を報告する。併せて、本研究の実務への応用可能性や課題についても触れる。
+   Actuarial Mathematics is a theory mainly about the calculation of premiums
+   reserves of life insurance. In this talk, I will present the current work
+   of formalizing the basic concept of Actuarial Mathematics. In addition,
+   I will mention the possibility for industrial application and
+   some obstacles to overcome.
+
+* 14:40 - 15:25 ** Toward an interpretation of Intutionistic Fixed Point Logic in Coq ** (30 + 15 min) <br/>
+   Holger Thies @ Kyoto University<br/>
+   IFP  (Intuitionistic Fixed Point Logic) is a proof system developed
+   mainly by U. Berger and collaborators
+   (M. Seisenberger, O. Petrovska, H. Tsuiki).
+   IFP extends intuitionistic first-order logic by strictly positive
+   inductive and coinductive definitions and it is particularly well-suited
+   for proofs over abstract mathematical structures such as  real numbers.
+   IFP further allows  program extraction based on a uniform realizability
+   interpretation which can e.g. be used to extract certified programs for
+   exact real computation.
+   In this talk we present some recent work on progress on implementing
+   IFP style proofs on top of Coq's dependent type theory and investigate
+   the possibility of program extraction from such proofs.
+   (The talk is based on j.w.w. Sewon Park and Hideki Tsuiki)
+
+* 15:25 - 16:10 ** Formal proofs related to incremental Merkle trees ** (30 + 15 min) <br/>
+   小川瑞史 @ 北陸先端科学技術大学院大学<br/>
+   本発表では、国際会議CADE2005にて発表したincremental Merkle treeの性質の
+   MONAによる形式証明について再考し、Isabelle における Sledgehammer を用いる形式証明の
+   可能性と問題点を提示する。Incremental Merkle tree はブロックチェーンの
+   基本データ構造であり、近年、その性質の形式証明が試みられており、再度、その可能性を検証する。
+
+* 16:10 - 16:35 ** 可換環論のMizarによる形式化 ** (15 + 10 min) <br/>
+   Yasushige WATAE @ 立正大学<br/>
+   昨年に引き続き筆者のMizarによる形式化を紹介。
+   根基イデアルの形式化やAffine空間上の代数的集合の形式化等
+
+* 16:35 - 17:00 ** Rings, categories and schemes in Coq II: the functor of points ** (15 + 10 min) <br/>
+   Xuanrui Qi @ 名古屋大学<br/>
+   Last year at TPP 2020, I gave a talk on a nascent project about defining
+   schemes in Coq/SSReflect. This talk reports further progress on the project:
+   specifically, I abandoned the idea to define textbook-style schemes,
+   but instead defining schemes via a "functor of points", a technique
+   well known since Grothendieck's time. Thereby, we may avoid Coq's
+   shortcomings and come up with a more versatile definition of schemes in Coq,
+   using MathComp libraries.
+
+* 17:00 - 17:25 ** ゲーム研究とCoq〜大富豪の場合〜 ** (15 + 10 min) <br/>
+   大渡　勝己 <br/>
+   組合せゲーム理論の研究にCoqの証明が役立った事例として、
+   大富豪ゲームの性質と証明について紹介します。
+
+* 17:25 - 18:00 ** TPPMark and closing of day 1** (25 min) <br/>
+
+
 ### Nov.22
-* 12:00 **Closing** (10min) <br/>
+* 09:00 - 09:45 ** Proving the correctness of OCaml typing by translation into Coq ** (30 + 15 min) <br/>
+   Jacques Garrigue @ 名古屋大学<br/>
+   Proving the correctness of a type checker for a full-fledged programming
+   language is a difficult task. As an alternative approach, we consider
+   translating the result of type checking to Coq. The expressiveness of
+   Gallina's type system allows a type preserving translation,
+   and its strong soundness properties ensures the safety of typed terms.
+   We developed a new backend for a subset of OCaml that generates a Coq
+   version, such that one can verify that the result of their evaluation is
+   the intended one. We plan to extend it to cover a large part of the language.
+
+* 09:45 - 10:30 ** 範疇文法のIsabelleによる形式化 ** (30 + 15 min) <br/>
+   TANIGUCHI Masaya @ 北陸先端科学技術大学院大学<br/>
+   範疇文法において型の繰り上げ規則などを導入することで，より広い言語クラスの文法を
+   表現することがSteedmanやMoortgatらによって提案されてきた．
+   我々は範疇文法を定理証明支援系Isabelleによって形式化し，
+   型の繰り上げ規則などが体系から定理として自然に導出できることを示す．
+
+* 10:30 - 11:15 ** 定理証明支援系Coqでのモナドを用いたクイックソートの形式化とMonaeの拡張 ** (30 + 15 min) <br/>
+   斉藤歩夢 @ 東京工業大学　数理・計算科学系<br/>
+   Functional programming languages are suitable for equational reasoning
+   because of their referential transparency.  However, many practical programs
+   have side effects which can be dealt with using monads.
+   Therefore, there is a lot of interest in formal verification with monadic
+   effects. In order to improve the proving experience using monadic effects,
+   we enrich an existing formalization of monads using a formalization of
+   quicksort. For that purpose, we built on a result by Mu and Chiang who
+   derived two implementations of quicksort using monads: a pure one and
+   another one using the array monad. They also provide an Agda formalization
+   with axiomatized facts that highlight technical difficulties about
+   nondeterministic permutations and the termination of monadic functions.
+   We address these difficulties by providing lacking lemmas about
+   nondeterministic permutations and by proving the termination of all
+   monadic functions. In particular, we explain how to deal with termination
+   in a systematic way.
+
+* 11:15 - 12:00 ** Progress Report on the Formalization of the Lebesgue Integral in MathComp-Analysis ** (30 + 15 min) <br/>
+   Reynald Affeldt @ 産業技術総合研究所<br/>
+   This presentation is a progress report on an original formalization of
+   measure and integration theory in the Coq proof assistant. It
+   leverages on existing techniques from the Mathematics Components
+   project such as iterated operators and extends MathComp-Analysis with
+   extended real numbers, infinite sums, mathematical structures for
+   measure theory, and the Lebesgue measure and integral.  We provide an
+   introduction to the resulting framework by showcasing in particular
+   the formal proof of the monotone convergence theorem.
+
+* 12:00 - 12:10 **Closing** (10min) <br/>
   才川 隆文 @ 名古屋大学
 
 
