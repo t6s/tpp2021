@@ -90,7 +90,7 @@ Each talk slot includes the time for discussion and break.
   才川 隆文 @ 名古屋大学
 
 * 13:10 - 13:55 ** Formalizing quantum circuits with MathComp/Ssreflect ** (30 + 15 min) <br/>
-   才川 隆文 @ 名古屋大学
+   才川 隆文 @ 名古屋大学 <br/>
    We formalized a basic tensor algebra used in quantum circuits.
    Compared to the previous work, in which compositions of quantum gates
    are expressed by large matrices padded by identity,
@@ -98,11 +98,11 @@ Each talk slot includes the time for discussion and break.
    and deals with their compositions by polymorphism.
 
 * 13:55 - 14:40 ** 生命保険数学の形式化 / Formalizing Actuarial Mathematics ** (30 + 15 min) <br/>
-   伊藤 洋介 / Yosuke Ito @ SOMPOひまわり生命保険株式会社 / Sompo Himawari Life Insurance Inc.<br/>
+   伊藤 洋介 / Yosuke Ito @ SOMPOひまわり生命保険株式会社 / Sompo Himawari Life Insurance Inc. <br/>
    生命保険数学とは、主に生命保険における保険料や負債の計算に関する理論であり、
    アクチュアリー試験の試験科目にも含まれている。
    今回、定理証明支援系Coqを用いて生命保険数学の基本的な定義や公式を形式化したので、
-   その概要を報告する。併せて、本研究の実務への応用可能性や課題についても触れる。
+   その概要を報告する。併せて、本研究の実務への応用可能性や課題についても触れる。<br/>
    Actuarial Mathematics is a theory mainly about the calculation of premiums
    reserves of life insurance. In this talk, I will present the current work
    of formalizing the basic concept of Actuarial Mathematics. In addition,
@@ -113,16 +113,16 @@ Each talk slot includes the time for discussion and break.
    Holger Thies @ Kyoto University<br/>
    IFP  (Intuitionistic Fixed Point Logic) is a proof system developed
    mainly by U. Berger and collaborators
-   (M. Seisenberger, O. Petrovska, H. Tsuiki).
+   (M. Seisenberger, O. Petrovska, H. Tsuiki).<br/>
    IFP extends intuitionistic first-order logic by strictly positive
    inductive and coinductive definitions and it is particularly well-suited
    for proofs over abstract mathematical structures such as  real numbers.
    IFP further allows  program extraction based on a uniform realizability
    interpretation which can e.g. be used to extract certified programs for
-   exact real computation.
+   exact real computation.<br/>
    In this talk we present some recent work on progress on implementing
    IFP style proofs on top of Coq's dependent type theory and investigate
-   the possibility of program extraction from such proofs.
+   the possibility of program extraction from such proofs.<br/>
    (The talk is based on j.w.w. Sewon Park and Hideki Tsuiki)
 
 * 15:25 - 16:10 ** Formal proofs related to incremental Merkle trees ** (30 + 15 min) <br/>
@@ -162,7 +162,7 @@ Each talk slot includes the time for discussion and break.
    language is a difficult task. As an alternative approach, we consider
    translating the result of type checking to Coq. The expressiveness of
    Gallina's type system allows a type preserving translation,
-   and its strong soundness properties ensures the safety of typed terms.
+   and its strong soundness properties ensures the safety of typed terms.<br/>
    We developed a new backend for a subset of OCaml that generates a Coq
    version, such that one can verify that the result of their evaluation is
    the intended one. We plan to extend it to cover a large part of the language.
