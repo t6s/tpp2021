@@ -75,7 +75,8 @@ Kazunori Matsuda (Kitami Institute of Technology),
 Email: kaz-matsuda&lt;at&gt;kitami-it.ac.jp
 
 ## 参加申し込み / Registration
-11/16(火)までに / Please register by 16th November from
+~~11/16(火)までに / Please register by 16th November from~~<br/>
+(ご講演なしの)参加登録は当日まで受け付けています / You can still register for the participation (without a talk) from
 
 <span style="font-size:150%">
 [こちらから/here](https://docs.google.com/forms/d/e/1FAIpQLScbaL-rlDBnLCKPJFnQLoluu9KdRvL_AoLKtSDFSyvuAytmfw/viewform)
