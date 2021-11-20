@@ -30,6 +30,9 @@ We hope all participants would consider giving a talk.
 2021年11月21日(日), 22日(月) / Sun. 21st to Mon. 22nd, November 2021.
 
 ## 会場 / Venue
+
+**<a href="map/map.html">Route to the rooms</a>**
+
 北見工業大学 / Kitami Institute of Technology
 
 <table>
