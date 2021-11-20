@@ -31,7 +31,7 @@ We hope all participants would consider giving a talk.
 
 ## 会場 / Venue
 
-**<a href="map/map.html">Route to the rooms</a>**
+**<a style="font-size: 32px; color:red" href="map/map.html">Route to the rooms</a>**
 
 北見工業大学 / Kitami Institute of Technology
 
