@@ -93,7 +93,7 @@ Each talk slot includes the time for discussion and break.
 * 13:00 - 13:10 **Opening** (10min) <br/>
   才川 隆文 @ 名古屋大学
 
-* 13:10 - 13:55 **Formalizing quantum circuits with MathComp/Ssreflect** (30 + 15 min) <br/>
+* 13:10 - 13:55 **Formalizing quantum circuits with MathComp/Ssreflect** (30 + 15 min) ([slides](<slides/saikawa.pdf>))<br/>
    才川 隆文 @ 名古屋大学 <br/>
    We formalized a basic tensor algebra used in quantum circuits.
    Compared to the previous work, in which compositions of quantum gates
@@ -136,7 +136,7 @@ Each talk slot includes the time for discussion and break.
    可能性と問題点を提示する。Incremental Merkle tree はブロックチェーンの
    基本データ構造であり、近年、その性質の形式証明が試みられており、再度、その可能性を検証する。
 
-* 16:10 - 16:35 **可換環論のMizarによる形式化** (15 + 10 min)([slides](<slides/watase.pdf>))<br/>
+* 16:10 - 16:35 **可換環論のMizarによる形式化** (15 + 10 min) ([slides](<slides/watase.pdf>))<br/>
    Yasushige WATASE @ 立正大学<br/>
    昨年に引き続き筆者のMizarによる形式化を紹介。
    根基イデアルの形式化やAffine空間上の代数的集合の形式化等
