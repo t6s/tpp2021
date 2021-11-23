@@ -101,7 +101,7 @@ Each talk slot includes the time for discussion and break.
    our formalization takes the gates as parametric linear functions
    and deals with their compositions by polymorphism.
 
-* 13:55 - 14:40 **生命保険数学の形式化 / Formalizing Actuarial Mathematics** (30 + 15 min) <br/>
+* 13:55 - 14:40 **生命保険数学の形式化 / Formalizing Actuarial Mathematics** (30 + 15 min) ([slides](<slides/ito.pdf>))<br/>
    伊藤 洋介 / Yosuke Ito @ SOMPOひまわり生命保険株式会社 / Sompo Himawari Life Insurance Inc. <br/>
    生命保険数学とは、主に生命保険における保険料や負債の計算に関する理論であり、
    アクチュアリー試験の試験科目にも含まれている。
