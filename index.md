@@ -129,7 +129,7 @@ Each talk slot includes the time for discussion and break.
    the possibility of program extraction from such proofs.<br/>
    (The talk is based on j.w.w. Sewon Park and Hideki Tsuiki)
 
-* 15:25 - 16:10 **Formal proofs related to incremental Merkle trees** (30 + 15 min) <br/>
+* 15:25 - 16:10 **Formal proofs related to incremental Merkle trees** (30 + 15 min) ([slides](<slides/ogawa.pdf>))<br/>
    小川瑞史 @ 北陸先端科学技術大学院大学<br/>
    本発表では、国際会議CADE2005にて発表したincremental Merkle treeの性質の
    MONAによる形式証明について再考し、Isabelle における Sledgehammer を用いる形式証明の
