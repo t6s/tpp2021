@@ -171,7 +171,7 @@ Each talk slot includes the time for discussion and break.
    version, such that one can verify that the result of their evaluation is
    the intended one. We plan to extend it to cover a large part of the language.
 
-* 09:45 - 10:30 **範疇文法のIsabelleによる形式化** (30 + 15 min) <br/>
+* 09:45 - 10:30 **範疇文法のIsabelleによる形式化** (30 + 15 min) ([slides](<slides/taniguchi.pdf>))<br/>
    TANIGUCHI Masaya @ 北陸先端科学技術大学院大学<br/>
    範疇文法において型の繰り上げ規則などを導入することで，より広い言語クラスの文法を
    表現することがSteedmanやMoortgatらによって提案されてきた．
