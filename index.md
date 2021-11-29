@@ -160,7 +160,7 @@ Each talk slot includes the time for discussion and break.
 
 
 ### Nov.22
-* 09:00 - 09:45 **Proving the correctness of OCaml typing by translation into Coq** (30 + 15 min) <br/>
+* 09:00 - 09:45 **Proving the correctness of OCaml typing by translation into Coq** (30 + 15 min) ([slides](<slides/garrigue.pdf>))<br/>
    Jacques Garrigue @ 名古屋大学<br/>
    Proving the correctness of a type checker for a full-fledged programming
    language is a difficult task. As an alternative approach, we consider
