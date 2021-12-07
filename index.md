@@ -141,7 +141,7 @@ Each talk slot includes the time for discussion and break.
    昨年に引き続き筆者のMizarによる形式化を紹介。
    根基イデアルの形式化やAffine空間上の代数的集合の形式化等
 
-* 16:35 - 17:00 **Rings, categories and schemes in Coq II: the functor of points** (15 + 10 min) <br/>
+* 16:35 - 17:00 **Rings, categories and schemes in Coq II: the functor of points** (15 + 10 min) ([slides](<slides/qi.pdf>))<br/>
    Xuanrui Qi @ 名古屋大学<br/>
    Last year at TPP 2020, I gave a talk on a nascent project about defining
    schemes in Coq/SSReflect. This talk reports further progress on the project:
