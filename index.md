@@ -310,14 +310,16 @@ Otherwise the game ends in a draw.
 Prove or disprove the existence of a winning strategy in this game.
 
 ### 謝辞 / Acknowledgements
-このゲームはもともと北見工業大学の中村文彦さんが考案されたもので,
+このゲーム(TRIROAD)はもともと北見工業大学の中村文彦さんが考案されたもので,
 今回簡略化してTPPMarkの題材とさせて頂くにあたり, いろいろとご協力頂きました.
 御礼申し上げます.
 
-The above game was originally invented by Fumihiko Nakamura of
+The above game (TRIROAD) was originally invented by Fumihiko Nakamura of
 Kitami Institute of Technology.
 We are very grateful for his help in
 simplifying and using the game as a TPPMark problem.
+
+[TRIROAD](https://famulitelab.github.io/games/triroad/)
 
 
 <!---
