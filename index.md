@@ -196,7 +196,7 @@ Each talk slot includes the time for discussion and break.
    monadic functions. In particular, we explain how to deal with termination
    in a systematic way.
 
-* 11:15 - 12:00 **Progress Report on the Formalization of the Lebesgue Integral in MathComp-Analysis** (30 + 15 min) <br/>
+* 11:15 - 12:00 **Progress Report on the Formalization of the Lebesgue Integral in MathComp-Analysis** (30 + 15 min) ([slides](<slides/affeldt.pdf>))<br/>
    Reynald Affeldt @ 産業技術総合研究所<br/>
    This presentation is a progress report on an original formalization of
    measure and integration theory in the Coq proof assistant. It
