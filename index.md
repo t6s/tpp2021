@@ -113,7 +113,7 @@ Each talk slot includes the time for discussion and break.
    I will mention the possibility for industrial application and
    some obstacles to overcome.
 
-* 14:40 - 15:25 **Toward an interpretation of Intutionistic Fixed Point Logic in Coq** (30 + 15 min) <br/>
+* 14:40 - 15:25 **Toward an interpretation of Intutionistic Fixed Point Logic in Coq** (30 + 15 min) ([slides](<slides/thies.pdf>))<br/>
    Holger Thies @ Kyoto University<br/>
    IFP  (Intuitionistic Fixed Point Logic) is a proof system developed
    mainly by U. Berger and collaborators
@@ -178,7 +178,7 @@ Each talk slot includes the time for discussion and break.
    我々は範疇文法を定理証明支援系Isabelleによって形式化し，
    型の繰り上げ規則などが体系から定理として自然に導出できることを示す．
 
-* 10:30 - 11:15 **定理証明支援系Coqでのモナドを用いたクイックソートの形式化とMonaeの拡張** (30 + 15 min) <br/>
+* 10:30 - 11:15 **定理証明支援系Coqでのモナドを用いたクイックソートの形式化とMonaeの拡張** (30 + 15 min) ([slides](<slides/saito.pdf>))<br/>
    斉藤歩夢 @ 東京工業大学　数理・計算科学系<br/>
    Functional programming languages are suitable for equational reasoning
    because of their referential transparency.  However, many practical programs
