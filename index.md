@@ -151,7 +151,7 @@ Each talk slot includes the time for discussion and break.
    shortcomings and come up with a more versatile definition of schemes in Coq,
    using MathComp libraries.
 
-* 17:00 - 17:25 **ゲーム研究とCoq〜大富豪の場合〜** (15 + 10 min) <br/>
+* 17:00 - 17:25 **ゲーム研究とCoq〜大富豪の場合〜** (15 + 10 min) ([slides](<slides/ohto.pdf>))<br/>
    大渡　勝己 <br/>
    組合せゲーム理論の研究にCoqの証明が役立った事例として、
    大富豪ゲームの性質と証明について紹介します。
